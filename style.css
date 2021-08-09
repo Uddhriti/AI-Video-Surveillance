@@ -1,0 +1,56 @@
+body{
+    background-size: cover;
+}
+#header{
+color: white;
+width: 100%;
+background-color: palevioletred;
+font-family: 'Courier New', Courier, monospace;
+margin-top: 0;
+}
+#img{
+    width: 100px;
+    height: 100px;
+}
+#img1{
+    width: 100px;
+    height: 100px;
+    transform: scaleX(-1);
+}
+button{
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px pink;
+    background-color: blanchedalmond;
+    color: blueviolet;
+    font-size: 25px;
+}
+#number_of_objects{
+    background-color: chartreuse;
+    color: cadetblue;
+    box-shadow: 5px 5px 5px yellow;
+    border-radius: 5px;
+    width: 20%;
+}
+#status{
+    background-color: orange;
+    color: rgba(201, 28, 172, 0.685);
+    box-shadow: 5px 5px 5px rgba(166, 255, 0, 0.747);
+    border-radius: 5px;
+    width: 20%;
+}
+#footer{
+    color: black;
+    width: 100%;
+    background-color: lightblue;
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed;
+    bottom : 0;
+    font-size: 15px;
+    }
+canvas{
+border-radius: 10px;
+box-shadow: 5px 5px 5px grey;
+color: green;
+margin-top: 150px;
+    }
